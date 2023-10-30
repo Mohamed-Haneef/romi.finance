@@ -1,0 +1,160 @@
+ /* header bar stylesheet */
+ .navbar-div {
+    background-color: black !important;
+}
+.romi-logo{
+    width: 50px ;
+}
+.romi-logo-name{
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    padding-right: 7px;
+}
+.nav-options{
+    color: #A7A7A9;
+    transition: .2s;
+}
+.nav-options:hover{
+    color: white;
+}
+.trade-nav-link{
+    background: #3eb489;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height:2rem;
+    font: 14px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: .2s;
+}
+.trade-nav-link:hover{
+    background: #207a59;
+    color: white;
+}
+.conn-nav-btn {
+    
+    --mc1: #3eb489;
+--mc2: #207a59;
+--hc: #ddd;
+--bc: #9ba0b8;
+--hff: "Heebo",sans-serif;
+--bff: "Nunito",sans-serif;
+--dark-blue: #191919;
+--dark-blue-bg: #151515;
+--dark-blue-accent: #b9b9b9;
+--dark-blue-hover: hsla(0,0%,93.3%,0.0784313725490196);
+--dark-blue-border: hsla(0,0%,100%,0.1607843137254902);
+--dark-blue-active: rgba(129,140,239,0.2);
+--avax-red: #e84143;
+--arbitrum-blue: #28a0f0;
+--border-radius-sm: 0.4rem;
+--error-red: #fa3c58;
+width: 200px;
+margin: 0;
+box-sizing: border-box;
+font-family: "Relative",sans-serif;
+letter-spacing: .5px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+outline: none;
+display: inline-block;
+align-items: center;
+color: #fff;
+font-size: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+cursor: pointer;
+-webkit-font-smoothing: antialiased;
+background: transparent;
+border: 1px solid var(--dark-blue-border);
+border-radius: var(--border-radius-sm);
+}
+.conn-nav-btn:hover{
+    background: #3b3b41;
+    border-color: #3b3b41;
+}
+.wrapper {
+position: fixed ;
+width: 400px;
+height: 440px;
+background: transparent;
+border: 2px solid rgba(225,255,255,.5);
+border-radius: 20px;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 30px rgba(0,0,0,.5);
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+transform: scale(0) ;
+transition: .5s;
+top: 50%;
+left: 50%;
+visibility: hidden;
+
+}
+
+.wrapper.active-popup {
+transform: scale(1) translate(-50%,-50%);
+visibility: visible;
+z-index: 2;
+}
+.wrapper .icon-close {
+position: absolute;
+top: 0;
+right: 0;
+width: 45px;
+height:45px;
+background:#162938;
+font-size: 1.5em;
+color: #fff;
+align-items: center;
+justify-content: center;
+display: flex;
+border-bottom-left-radius: 20px;
+cursor: pointer;
+z-index: 1; 
+}
+.btn-settings {
+--mc1: #3eb489;
+--mc2: #207a59;
+--hc: #ddd;
+--bc: #9ba0b8;
+--hff: "Heebo",sans-serif;
+--bff: "Nunito",sans-serif;
+--dark-blue: #191919;
+--dark-blue-bg: #151515;
+--dark-blue-accent: #b9b9b9;
+--dark-blue-hover: hsla(0,0%,93.3%,0.0784313725490196);
+--dark-blue-border: hsla(0,0%,100%,0.1607843137254902);
+--dark-blue-active: rgba(129,140,239,0.2);
+--avax-red: #e84143;
+--arbitrum-blue: #28a0f0;
+--border-radius-sm: 0.4rem;
+--error-red: #fa3c58;
+
+margin: 0;
+box-sizing: border-box;
+font-family: "Relative",sans-serif;
+letter-spacing: .5px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+outline: none;
+display: inline-flex;
+align-items: center;
+color: #fff;
+font-size: 15px;
+cursor: pointer;
+-webkit-font-smoothing: antialiased;
+padding: .5rem 1.4rem;
+background: transparent;
+border: 1px solid var(--dark-blue-border);
+border-radius: var(--border-radius-sm);
+}
+.btn-settings:hover{
+    background: #3b3b41;
+    border-color: #3b3b41;
+}
+.shadow-nav{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);;
+}

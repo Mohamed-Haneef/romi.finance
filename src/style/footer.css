@@ -1,0 +1,9 @@
+ /* Footer style section */
+ .footer-div{
+    background-color: black !important;
+}
+.footer-Nav{
+    color: antiquewhite !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

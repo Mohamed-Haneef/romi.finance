@@ -1,0 +1,18 @@
+/* Home page style section */
+.home-style{
+    background-color: #191919 !important ;
+}
+.home-heading{
+    color: white;
+    font-weight: 600;
+}
+.home-pad{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.home-content{
+    color: #cecece;
+}
